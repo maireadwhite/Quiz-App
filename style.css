@@ -1,6 +1,12 @@
-//--set up box sizing for all elements to be border-box--//
 
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: sans serif;
+}
+
+//--remove padding and margin--//
+
+body {
+    padding: 0;
+    margin: 0;
 }
