@@ -29,14 +29,13 @@ body.wrong {
     --hue: var(--hue-wrong);
 }
 
-//give the container a card effect//
 
 .container {
     width: 800px;
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
-
-
-
+    border-color: black;
+    padding: 10px;
+    box-shadow: 0 0 10px 4px;
 }
