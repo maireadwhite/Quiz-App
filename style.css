@@ -6,7 +6,7 @@
 
 :root {
     --hue-neutral: 210;
-    --hue-wrong: 0;
+    --hue-incorrect: 0;
     --hue-correct: 145;
 }
 
@@ -25,8 +25,8 @@ body.correct {
     --hue: var(--hue-correct);
 }
 
-body.wrong {
-    --hue: var(--hue-wrong);
+body.incorrect {
+    --hue: var(--hue-incorrect);
 }
 
 
@@ -53,5 +53,35 @@ body.wrong {
     border: 1px solid hsl(var(--hue), 100%, 30%);
     border-radius: 5px;
     color: white;
-    outline: none;
+   
+}
+
+.btn:hover {
+    border-color: black;
+    border-width: 3px;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+}
+
+.btn.incorrect {
+    --hue: var(--hue-incorrect);
+}
+
+.start-btn, .next-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
 }
