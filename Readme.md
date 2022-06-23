@@ -1,7 +1,7 @@
 Project Title
 Demo-Preview
 Table of contents
-Installation
+Installation- perhaps enter usermame or email to start game?
 Usage
 Development
 Contribute
@@ -10,6 +10,8 @@ Sponsor
 Adding new features or fixing bugs
 -Lost question, It was showing and Last change I made before I noticed was modifying container. 
 -Question has come back when adding clear setStatusClass. But now all the options have gone. 
+- Learning to show and hide elements at the minute It seems like I am mastering hiding more. 
+
 License
 Footer
 
